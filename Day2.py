@@ -1,0 +1,5 @@
+bill = float(input("Enter the bill amount : "))
+tip = int(input("Percentage of tip you will give : "))
+total_friends = int(input("How many peoples will contribute : "))
+total_bill_amount = round((bill*tip/100+bill)/total_friends,2)
+print(total_bill_amount)
