@@ -17,6 +17,7 @@ def divide(val1,val2):
     return val1/val2
 
 def calculator():
+    """Perform basic Arthmetic Operations"""
     print(logo)
     operations = {"+":add,"-":subtract,"*":multiply,"/":divide}
 
